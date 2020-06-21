@@ -17,8 +17,8 @@ def run_guessing_game
  correct_answer = generate_number
  instructions
  player_guess = gets.chomp
- puts player_guess
- puts correct_answer
+ puts player_guess.type
+ puts correct_answer.type
  puts player_guess == correct_answer
  if player_guess == "exit"
   puts "Goodbye!"
