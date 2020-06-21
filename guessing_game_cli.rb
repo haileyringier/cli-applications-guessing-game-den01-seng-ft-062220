@@ -18,6 +18,8 @@ def run_guessing_game
  instructions
  player_guess = gets.chomp
  puts player_guess
+ puts correct_answer
+ puts player_guess == correct_answer
  if player_guess == "exit"
   puts "Goodbye!"
  elsif player_guess == correct_answer
