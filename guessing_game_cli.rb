@@ -21,8 +21,10 @@ def run_guessing_game
  player_guess = get_user_input
  if player_guess == "exit"
   puts "Goodbye!"
+  end
  elsif player_guess == correct_answer
   puts "You guessed the correct number"
+end
  elsif player_guess != correct_answer
   puts"Sorry! The computer guessed #{correct_answer}."
 
