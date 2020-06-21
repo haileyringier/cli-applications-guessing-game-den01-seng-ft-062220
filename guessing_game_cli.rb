@@ -24,13 +24,8 @@ def run_guessing_game
   end
  elsif player_guess == correct_answer
   puts "You guessed the correct number"
-end
+ end
  elsif player_guess != correct_answer
   puts"Sorry! The computer guessed #{correct_answer}."
-
-
-
-#elsif player_guess == "exit"
- # puts "Goodbye!"
 end
 end
