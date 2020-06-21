@@ -26,3 +26,4 @@ def run_guessing_game
  elsif player_guess == "exit"
   puts "Goodbye!"
 end
+end
