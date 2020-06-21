@@ -16,10 +16,8 @@ end
 def run_guessing_game
  correct_answer = generate_number
  instructions
- player_guess = gets.chomp
- puts player_guess.class
- puts correct_answer.class
- puts player_guess == correct_answer
+ player_guess = gets.chomp.to_int
+# player_guess = player_guess.to_int
  if player_guess == "exit"
   puts "Goodbye!"
  elsif player_guess == correct_answer
