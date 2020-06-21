@@ -7,9 +7,7 @@ def instructions
   puts "Guess a number between 1 and 6"
 end
 
-def get_user_input
-  gets.chomp
-end
+
 
 
 
@@ -18,7 +16,7 @@ end
 def run_guessing_game
  correct_answer = generate_number
  instructions
- player_guess = get_user_input
+ player_guess = gets
  if player_guess == "exit"
   puts "Goodbye!"
  elsif player_guess == correct_answer
