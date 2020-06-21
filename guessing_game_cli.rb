@@ -1,6 +1,6 @@
 
 def generate_number
-  rand 1..6
+  rand(6) + 1
 end
 
 def instructions
