@@ -16,7 +16,7 @@ end
 def run_guessing_game
  correct_answer = generate_number
  instructions
- player_guess = gets.chomp.to_int
+ player_guess = gets.chomp.to_i
 # player_guess = player_guess.to_int
  if player_guess == "exit"
   puts "Goodbye!"
